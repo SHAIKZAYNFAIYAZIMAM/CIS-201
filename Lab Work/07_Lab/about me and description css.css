@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<title> </title> 
+	<mets charset="UTF-8" /> 
+	<style> 
+		table, th, td {
+			border: 1px black solid; 
+		} 
+		h1{
+			color:red;
+		}
+		caption{
+			color: blue;
+		} 
+		p.em { 
+			font-size:2em;
+		} 
+		p.rem{
+			font-size: 1rem;
+		}
+		p.doubleHTML{
+			font-size: 24px;
+			color: red;
+		} 
+		p.vh{
+			font-size: 3vh;
+		} 
+	</style> 
+</head> 
+<body> 
+	<p class="em"> About Me: </p> 
+	<hr> 
+<p> Studying Software engineering in Al – Yamamah University since 2021. Received 82.8 % in high school and along with 3.14 CGPA in the first semester in Al – Yamamah University </p> 
+<p> List of your achievements: </p> 
+<hr> 
+<p> Education: 
+<ul> 
+	<li> High school with 3.312 GPA </li> 
+	<li> First semester in Al – Yamamah University with 3.14 CGPA </li> 
+</ul> 
+<h3> Transcript: </h3> 
+<table> 
+	<caption> Transcript: </caption> 
+	<tr> 
+		<th> Course Code </th> 
+		<th> Course Name </th> 
+		<th> Description </th> 
+		<th> Practical Work </th> 
+	</tr> 
+	<tr> 
+		<td> CIS 201 </td> 
+		<td> Fundamentals of Web Design </td> 
+		<td> This course introduces basic concepts of the Internet and World-Wide Web. Students will learn how to create web pages with HTML, and use JavaScript for dynamic effects. Major topics include the roles and operation of web browsers and servers, including interacting with web applications through forms; and the separation of formatting and logical structure in HTML documents, stylesheets, and the basic principles of effective interface design for the web </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> ISY 102 </td> 
+		<td> Introduction to Information Systems </td> 
+		<td> This is an introductory course to the computer based information systems and their applications in business. It provides a fundamental overview of both the applications and applicability of computer based technology in business </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> CIS 104 </td> 
+		<td> Programming Fundamentals II </td> 
+		<td> This course builds on the prerequisite course to introduce the core concepts of object-oriented programming, such as encapsulation, polymorphism, and inheritance. Students will learn how to articulate several concepts and classes through associations such as aggregation and/or composition using java collection objects. Students will also learn about event handling and exception handling and will be introduced to graphical user interface classes. In this course the student is introduced to the Unified Modeling Language (UML) to be able to understand and/or to prepare the design of more complex applications using several classes. The objective of this course is to give the students the basic tools to build complex applications. </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> ISL 220  </td> 
+		<td> Foundation of Islamic Economy In English </td> 
+		<td> </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> MTH 211 </td> 
+		<td> Calculas II </td> 
+		<td> This four-credit course provides a basic Definite and indefinite integrals of functions of a single variable. Fundamental Theorem of Calculus. Techniques of integration. Applications of the definite integral to area, volume, arc length and surface of revolution. Improper integrals. Laplace and Fourier transforms and Fourier series. </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> PHY 101 </td> 
+		<td> Introduction to Physical Science </td> 
+		<td> This course will introduce students to Physical Sciences, especially to the discipline of Physics and Chemistry. It is an introductory course designed to explore the basic concepts of Physical Science. The course includes an introduction to the fundamental concepts of Physics and Chemistry. Students will be encouraged to explore the relationship between science and everyday life. This course will provide opportunities to study the concepts of matter, speed, velocity, acceleration, energy, and motion in 1D, Forces and Newton’s laws, Energy and conservation, Fluid, Thermodynamics, Light reflection and refraction, Atom structure and Periodic table, Compounds and Mixtures. </td> 
+		<td> 
+	</tr> 
+	<tr> 
+		<td> CIS 103 </td> 
+		<td> Programming Fundamentals I </td> 
+		<td> </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> ISL 330 </td> 
+		<td> Work Ethics in Islam in English </td> 
+		<td> </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> ARB 220 </td> 
+		<td> Writing Skills in Arabic for non – Arabic Speakers </td> 
+		<td> </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> MTH 104 </td> 
+		<td> Calculus I </td> 
+		<td> </td> 
+		<td> </td> 
+	</tr> 
+	<tr> 
+		<td> ENG 101 </td> 
+		<td> English Essay Writing </td> 
+		<td> </td> 
+		<td> </td> 
+	</tr> 
+</table> 
+<p class="rem"> Contact Page: </p> 
+<hr> 
+<p> Name: SHAIK ZAYN FAIYAZ IMAM <br> 
+Email: 202111170@yu.edu.sa </p> 
+<p> Home Page: <br> 
+Social medias: <br> 
+Branches: <br> 
+Timings: <br> 
+Weekly Offers: </p> 
+<p class="doubleHTML"> Description: </p> 
+<p class="vh"> This website contains restaurant menu with sections such as Appetizers, main course, Dessert, and Drinks. Appetizers contains stuffed mushrooms, French fries, etc. main course includes fish, chicken, beef, etc. Desserts are basic sweets such as pastries, cakes, etc. Drinks provide sodas of any type. This is the official website for the restaurant’s menu. Feel free to explore various options, choices, and information you need to fulfil your desires. The reason for this website is to make your decisions easier rather than trying to access the restaurant’s menu by visiting any branch. Access any information you like without the need to visit any branch for any small queries. Drop your suggestions on how we could improve our facilities to make it easier for you to make the right decision. </p> 
+</body> 
+</html> 
+ 
