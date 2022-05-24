@@ -19,14 +19,14 @@
 <body> 
 	<p> Home page </p> 
 	<p class="line"> 
-	<a href="../www/Home Page CSS and Bootstrap.html"> <button> Home </button> </a> 
-	<a href="../www/About Me Page CSS and Bootstrap.html"> <button> About Me </button> </a> 
-	<a href="../www/Project Page CSS and Bootstrap.html"> <button> Restaurant Menu </button> </a> 
-	<a href="../www/Index Page CSS and Bootstrap.html"> <button> Branches </button> </a> 
-	<a href="../www/Index Page CSS and Bootstrap.html"> <button> Weekly Offers </button> </a> 
-	<a href="../www/Index Page CSS and Bootstrap.html"> <button> Timings </button> </a> 
-	<a href="../www/Index Page CSS and Bootstrap.html"> <button> Rules and Regulations </button> </a> 
-	<a href="../www/Index Page CSS and Bootstrap.html"> <button> Contact Us </button> </a> 
+	<a href="../www/Home Page.html"> <button> Home </button> </a> 
+	<a href="../www/About Me Page.html"> <button> About Me </button> </a> 
+	<a href="../www/Project Page.html"> <button> Restaurant Menu </button> </a> 
+	<a href="../www/Index Page.html"> <button> Branches </button> </a> 
+	<a href="../www/Index Page.html"> <button> Weekly Offers </button> </a> 
+	<a href="../www/Index Page.html"> <button> Timings </button> </a> 
+	<a href="../www/Index Page.html"> <button> Rules and Regulations </button> </a> 
+	<a href="../www/Index Page.html"> <button> Contact Us </button> </a> 
 	</p> 
 </body> 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

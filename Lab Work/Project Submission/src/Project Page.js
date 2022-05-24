@@ -4,6 +4,7 @@
 	<title> Project Page </title> 
 	<meta charset="UTF-8" /> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="Main.css"/> 
 	<style> 
 		table, th, td {
 			border: 1px black solid; 
@@ -86,6 +87,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -103,6 +121,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -118,6 +153,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -133,6 +185,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -149,6 +218,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 </table> 
@@ -177,6 +263,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -193,6 +296,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -209,6 +329,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -225,6 +362,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -245,6 +399,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 </table> 
@@ -273,6 +444,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -289,6 +477,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 </table> 
@@ -322,6 +527,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -343,6 +565,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 	<tr> 
@@ -360,6 +599,23 @@
 		<td> <form action="/action_page.php"> 
 			Quantity: 
 			<input type="text" name="quantity" value=" ">
+			<p id="display"> </p>
+			<p id="result"> </p>
+			<button class="numBtn" onClick="displayNum(1)"> 1 </button>
+			<button class="numBtn" onClick="displayNum(2)"> 2 </button>
+			<button class="numBtn" onClick="displayNum(3)"> 3 </button>
+			<button class="numBtn" onClick="displayNum(4)"> 4 </button>
+			<button class="numBtn" onClick="displayNum(5)"> 5 </button>
+			<button class="numBtn" onClick="displayNum(6)"> 6 </button>
+			<button class="numBtn" onClick="displayNum(7)"> 7 </button>
+			<button class="numBtn" onClick="displayNum(8)"> 8 </button>
+			<button class="numBtn" onClick="displayNum(9)"> 9 </button>
+			<button class="numBtn" onClick="displayNum(0)"> 0 </button>
+			<button class="numBtn" onClick='displayNum("+")'> + </button>
+			<button class="numBtn" onClick='displayNum("-")'> - </button>
+			<button class="numBtn" onClick='displayNum("*")'> * </button>
+			<button class="numBtn" onClick='displayNum("/")'> / </button>
+			<button class="numBtn" onClick='displayResult()'> = </button>
 		</td> 
 	</tr> 
 </table> 
@@ -386,6 +642,19 @@
 			<img src="../src/imgs/gccnet.png" alt="icon" width="250" height="200"> 
 			<img src="../src/imgs/maestro.png" alt="icon" width="200" height="200"> 
 </body> 
+<script>
+	function displayNum(x){
+		console.log(x);
+		document.getElementById("display").innerHTML += x;
+	}
+	
+	function displayResult(){
+		//get text
+		var text_to_eva = document.getElementById("display").innerHTML;
+		//evalute text
+		document.getElementById("result").innerHTML = eval(text_to_eva);
+	}
+</script> 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8a
 	btTE1Pi6jizo" crossorigin="anonymous"></script>
